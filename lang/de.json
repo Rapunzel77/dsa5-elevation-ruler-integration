@@ -1,0 +1,9 @@
+{
+  "elevationRuler": {
+    "TDE5" : {
+      "walk": "gehen",
+      "dash": "laufen",
+      "unreachable": "Unerreichbar"
+    }
+  }
+}

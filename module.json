@@ -1,0 +1,64 @@
+{
+    "id": "dsa5-elevation-ruler-integration",
+    "title": "The Dark Eye 5th Ed. - Elevation Ruler Integration",
+    "description": "Extending elevation ruler to provide out of the box compatibility for TDE5/DSA5.",
+    "version": "0.12.0",
+    "minimumCoreVersion": "12",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12.329",
+        "maximum": "12"
+    },
+    "authors": [
+        {
+            "name": "Rapunzel77",
+            "url": "https://github.com/Rapunzel77/dsa5-elevation-ruler-integration",
+            "discord": "Rapunzel_77#7051"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dsa5",
+                "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT/foundry12/system.json",
+                "compatibility": {
+                    "minimum": "6.0.0",
+                    "verified": "6.0.1"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "elevationruler",
+                "type": "module",
+                "manifest": "https://github.com/caewok/fvtt-elevation-ruler/releases/latest/download/module.json",
+                "compatibility": {
+                    "minimum": "0.9.9",
+                    "verified": "0.9.9"
+                }
+            }
+        ]
+    },
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "languages": [
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "license" : "LICENSE",
+    "readme" : "README.md",
+    "bugs" : "https://github.com/Rapunzel77/dsa5-elevation-ruler-integration/issues",
+    "changelog" : "https://github.com/Rapunzel77/dsa5-elevation-ruler-integration/releases/latest",
+    "url": "https://github.com/Rapunzel77/dsa5-elevation-ruler-integration",
+    "manifest": "https://github.com/Rapunzel77/dsa5-elevation-ruler-integration/releases/latest/download/module.json",
+    "download": "https://github.com/Rapunzel77/dsa5-elevation-ruler-integration/archive/refs/tags/0.12.0.zip"
+}

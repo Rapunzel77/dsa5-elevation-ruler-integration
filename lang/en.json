@@ -1,0 +1,9 @@
+{
+  "dragRuler": {
+    "TDE5" : {
+      "walk": "walk",
+      "dash": "dash",
+      "unreachable": "Unreachable"
+    }
+  }
+}
